@@ -9,13 +9,13 @@ void isPalindrome(char str[])
 	int h = strlen(str) - 1;
 	while (h >= l)
 	{
-		if (str[l--] != str[h++])
+		if (str[l++] != str[h--])
 		{
-			printf("%s is Not Palindrome", str);
+			printf("%s is Not Palindrome \n", str);
 			return;
 		}
 	}
-	printf("%s is palindrome", str);
+	printf("%s is palindrome \n", str);
 }
 
 
@@ -25,3 +25,4 @@ int main()
 	isPalindrome("abbccbba");
 	return 0;
 }
+
