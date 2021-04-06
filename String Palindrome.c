@@ -21,8 +21,8 @@ void isPalindrome(char str[])
 
 int main()
 {
+	isPalindrome("abcd");
 	isPalindrome("abba");
-	isPalindrome("abbccbba");
 	return 0;
 }
 
